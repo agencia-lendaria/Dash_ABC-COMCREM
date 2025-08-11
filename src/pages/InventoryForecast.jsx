@@ -200,7 +200,7 @@ const InventoryForecast = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#86EFAC',
+                color: '#2D5A3D',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {formatNumber(forecast.averageTotal)}
@@ -214,7 +214,7 @@ const InventoryForecast = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#FDE68A',
+                color: '#D2691E',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {formatNumber(forecast.recommendation)}
@@ -228,7 +228,7 @@ const InventoryForecast = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#FCA5A5',
+                color: '#B8336A',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {formatNumber(forecast.maxSales)}
@@ -317,7 +317,7 @@ const InventoryForecast = () => {
             <div style={{
               padding: 'var(--spacing-lg)',
               borderRadius: 'var(--radius-md)',
-              backgroundColor: '#86EFAC',
+              backgroundColor: '#2D5A3D',
               color: 'white',
               textAlign: 'center'
             }}>
@@ -334,7 +334,7 @@ const InventoryForecast = () => {
             <div style={{
               padding: 'var(--spacing-lg)',
               borderRadius: 'var(--radius-md)',
-              backgroundColor: '#FDE68A',
+              backgroundColor: '#D2691E',
               color: 'white',
               textAlign: 'center'
             }}>
@@ -351,7 +351,7 @@ const InventoryForecast = () => {
             <div style={{
               padding: 'var(--spacing-lg)',
               borderRadius: 'var(--radius-md)',
-              backgroundColor: '#FCA5A5',
+              backgroundColor: '#B8336A',
               color: 'white',
               textAlign: 'center'
             }}>

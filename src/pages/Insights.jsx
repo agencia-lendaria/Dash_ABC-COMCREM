@@ -97,16 +97,16 @@ const Insights = () => {
   ];
 
   const concentrationData = [
-    { name: 'Top-1 Cliente', value: 24.6, color: '#EF4444' },
-    { name: 'Outros Classe A', value: 55.4, color: '#10B981' },
-    { name: 'Classe B', value: 15.0, color: '#F59E0B' },
+    { name: 'Top-1 Cliente', value: 24.6, color: '#B8336A' },
+    { name: 'Outros Classe A', value: 55.4, color: '#2D5A3D' },
+    { name: 'Classe B', value: 15.0, color: '#D2691E' },
     { name: 'Classe C', value: 5.0, color: '#6B7280' }
   ];
 
   const productConcentrationData = [
-    { name: 'Top-1 Produto', value: 4.1, color: '#EF4444' },
-    { name: 'Outros Classe A', value: 75.9, color: '#10B981' },
-    { name: 'Classe B', value: 15.0, color: '#F59E0B' },
+    { name: 'Top-1 Produto', value: 4.1, color: '#B8336A' },
+    { name: 'Outros Classe A', value: 75.9, color: '#2D5A3D' },
+    { name: 'Classe B', value: 15.0, color: '#D2691E' },
     { name: 'Classe C', value: 5.0, color: '#6B7280' }
   ];
 
