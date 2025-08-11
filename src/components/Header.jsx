@@ -39,7 +39,7 @@ const Header = () => {
               fontWeight: '600',
               color: 'var(--pure-white)'
             }}>
-              Análise ABC - Concrem
+              Curva ABC
             </h1>
           </div>
 
