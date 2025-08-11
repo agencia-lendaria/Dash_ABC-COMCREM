@@ -252,6 +252,14 @@ const Insights = () => {
           }}>
             Insights ABC
           </h1>
+          <h1 style={{ 
+            fontSize: '3rem', 
+            fontWeight: '700', 
+            color: 'var(--charcoal-black)',
+            marginBottom: 'var(--spacing-lg)'
+          }}>
+            Insights
+          </h1>
           <p style={{ 
             fontSize: '1.25rem', 
             color: '#6B7280',
