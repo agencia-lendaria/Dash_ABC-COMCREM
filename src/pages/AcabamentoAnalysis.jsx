@@ -136,7 +136,7 @@ const AcabamentoAnalysis = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#86EFAC',
+                color: '#2D5A3D',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {analysis.summary.classA.length}
@@ -147,7 +147,7 @@ const AcabamentoAnalysis = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#FDE68A',
+                color: '#D2691E',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {analysis.summary.classB.length}
@@ -158,7 +158,7 @@ const AcabamentoAnalysis = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#FCA5A5',
+                color: '#B8336A',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {analysis.summary.classC.length}
