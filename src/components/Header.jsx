@@ -25,17 +25,15 @@ const Header = () => {
           padding: 'var(--spacing-lg) 0'
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--spacing-md)' }}>
-            <div style={{
-              width: '40px',
-              height: '40px',
-              backgroundColor: 'var(--forest-green)',
-              borderRadius: 'var(--radius-md)',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}>
-              <BarChart3 size={24} color="white" />
-            </div>
+            <img 
+              src="/logo-white-concrem.png" 
+              alt="Concrem Logo" 
+              style={{
+                height: '40px',
+                width: 'auto',
+                objectFit: 'contain'
+              }}
+            />
             <h1 style={{ 
               fontSize: '1.5rem', 
               fontWeight: '600',
