@@ -3,9 +3,9 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 
 const ABCAnalysisChart = ({ data, title, type = 'bar' }) => {
   const colors = {
-    A: '#86EFAC', // Pastel Green
-    B: '#FDE68A', // Pastel Yellow
-    C: '#FCA5A5'  // Pastel Red
+    A: '#2D5A3D', // Moss Green
+    B: '#D2691E', // Sand Orange
+    C: '#B8336A'  // Magenta
   };
 
   const pieData = [
