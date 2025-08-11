@@ -3,9 +3,9 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 
 const ABCAnalysisChart = ({ data, title, type = 'bar' }) => {
   const colors = {
-    A: '#10B981', // Green
-    B: '#F59E0B', // Orange
-    C: '#EF4444'  // Red
+    A: '#86EFAC', // Pastel Green
+    B: '#FDE68A', // Pastel Yellow
+    C: '#FCA5A5'  // Pastel Red
   };
 
   const pieData = [
@@ -219,11 +219,11 @@ const ABCAnalysisChart = ({ data, title, type = 'bar' }) => {
         <div style={{
           padding: 'var(--spacing-xl)',
           borderRadius: 'var(--radius-lg)',
-          backgroundColor: '#10B981',
+          backgroundColor: '#86EFAC',
           color: 'white',
           textAlign: 'center',
           boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
-          border: '1px solid #059669'
+          border: '1px solid #65A30D'
         }}>
           <h4 style={{ 
             margin: '0 0 var(--spacing-sm) 0', 
@@ -252,11 +252,11 @@ const ABCAnalysisChart = ({ data, title, type = 'bar' }) => {
         <div style={{
           padding: 'var(--spacing-xl)',
           borderRadius: 'var(--radius-lg)',
-          backgroundColor: '#F59E0B',
+          backgroundColor: '#FDE68A',
           color: 'white',
           textAlign: 'center',
           boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
-          border: '1px solid #D97706'
+          border: '1px solid #F59E0B'
         }}>
           <h4 style={{ 
             margin: '0 0 var(--spacing-sm) 0', 
@@ -285,11 +285,11 @@ const ABCAnalysisChart = ({ data, title, type = 'bar' }) => {
         <div style={{
           padding: 'var(--spacing-xl)',
           borderRadius: 'var(--radius-lg)',
-          backgroundColor: '#EF4444',
+          backgroundColor: '#FCA5A5',
           color: 'white',
           textAlign: 'center',
           boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)',
-          border: '1px solid #DC2626'
+          border: '1px solid #EF4444'
         }}>
           <h4 style={{ 
             margin: '0 0 var(--spacing-sm) 0', 

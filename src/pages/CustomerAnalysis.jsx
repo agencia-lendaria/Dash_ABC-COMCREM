@@ -136,7 +136,7 @@ const CustomerAnalysis = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#10B981',
+                color: '#86EFAC',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {analysis.summary.classA.length}
@@ -147,7 +147,7 @@ const CustomerAnalysis = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#F59E0B',
+                color: '#FDE68A',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {analysis.summary.classB.length}
@@ -158,7 +158,7 @@ const CustomerAnalysis = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#EF4444',
+                color: '#FCA5A5',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {analysis.summary.classC.length}

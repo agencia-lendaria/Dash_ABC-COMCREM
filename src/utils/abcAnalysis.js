@@ -91,7 +91,7 @@ export const calculateABCAnalysis = (data, groupBy, valueField = 'LINE_AMOUNT') 
     }
     
     const lineAmount = Number(item.LINE_AMOUNT) || 0;
-                    const quantity = Number(item.QUANTIDADE_NUM) || 0;
+    const quantity = Number(item.QUANTIDADE_NUM) || 0;
     
     acc[key].totalValue += lineAmount;
     acc[key].totalQuantity += quantity;

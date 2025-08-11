@@ -195,12 +195,12 @@ const InventoryForecast = () => {
           }}>
             <div className="card" style={{ textAlign: 'center' }}>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 'var(--spacing-sm)' }}>
-                <Calendar size={20} color="#10B981" />
+                <Calendar size={20} color="#86EFAC" />
               </div>
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#10B981',
+                color: '#86EFAC',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {formatNumber(forecast.averageTotal)}
@@ -209,12 +209,12 @@ const InventoryForecast = () => {
             </div>
             <div className="card" style={{ textAlign: 'center' }}>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 'var(--spacing-sm)' }}>
-                <BarChart3 size={20} color="#F59E0B" />
+                <BarChart3 size={20} color="#FDE68A" />
               </div>
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#F59E0B',
+                color: '#FDE68A',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {formatNumber(forecast.recommendation)}
@@ -223,12 +223,12 @@ const InventoryForecast = () => {
             </div>
             <div className="card" style={{ textAlign: 'center' }}>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 'var(--spacing-sm)' }}>
-                <TrendingUp size={20} color="#EF4444" />
+                <TrendingUp size={20} color="#FCA5A5" />
               </div>
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#EF4444',
+                color: '#FCA5A5',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {formatNumber(forecast.maxSales)}
@@ -317,7 +317,7 @@ const InventoryForecast = () => {
             <div style={{
               padding: 'var(--spacing-lg)',
               borderRadius: 'var(--radius-md)',
-              backgroundColor: '#10B981',
+              backgroundColor: '#86EFAC',
               color: 'white',
               textAlign: 'center'
             }}>
@@ -334,7 +334,7 @@ const InventoryForecast = () => {
             <div style={{
               padding: 'var(--spacing-lg)',
               borderRadius: 'var(--radius-md)',
-              backgroundColor: '#F59E0B',
+              backgroundColor: '#FDE68A',
               color: 'white',
               textAlign: 'center'
             }}>
@@ -351,7 +351,7 @@ const InventoryForecast = () => {
             <div style={{
               padding: 'var(--spacing-lg)',
               borderRadius: 'var(--radius-md)',
-              backgroundColor: '#EF4444',
+              backgroundColor: '#FCA5A5',
               color: 'white',
               textAlign: 'center'
             }}>

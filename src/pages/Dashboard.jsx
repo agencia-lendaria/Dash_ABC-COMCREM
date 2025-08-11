@@ -347,7 +347,7 @@ const Dashboard = () => {
                        <div style={{
                          fontSize: '1.75rem',
                          fontWeight: '700',
-                         color: '#10B981',
+                         color: '#86EFAC',
                          marginBottom: 'var(--spacing-xs)',
                          lineHeight: '1.1'
                        }}>
@@ -367,7 +367,7 @@ const Dashboard = () => {
                        <div style={{
                          fontSize: '1.75rem',
                          fontWeight: '700',
-                         color: '#F59E0B',
+                         color: '#FDE68A',
                          marginBottom: 'var(--spacing-xs)',
                          lineHeight: '1.1'
                        }}>
@@ -387,7 +387,7 @@ const Dashboard = () => {
                        <div style={{
                          fontSize: '1.75rem',
                          fontWeight: '700',
-                         color: '#EF4444',
+                         color: '#FCA5A5',
                          marginBottom: 'var(--spacing-xs)',
                          lineHeight: '1.1'
                        }}>

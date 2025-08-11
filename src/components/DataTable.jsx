@@ -36,9 +36,9 @@ const DataTable = ({ data, title }) => {
 
   const getClassificationColor = (classification) => {
     switch (classification) {
-      case 'A': return '#10B981';
-      case 'B': return '#F59E0B';
-      case 'C': return '#EF4444';
+      case 'A': return '#86EFAC';
+      case 'B': return '#FDE68A';
+      case 'C': return '#FCA5A5';
       default: return '#6B7280';
     }
   };

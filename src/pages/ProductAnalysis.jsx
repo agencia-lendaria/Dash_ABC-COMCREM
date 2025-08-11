@@ -128,7 +128,7 @@ const ProductAnalysis = () => {
           {/* Summary Cards */}
           <div style={{ 
             display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))',
             gap: 'var(--spacing-lg)',
             marginBottom: 'var(--spacing-xl)'
           }}>
@@ -136,7 +136,7 @@ const ProductAnalysis = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#10B981',
+                color: '#86EFAC',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {analysis.summary.classA.length}
@@ -147,7 +147,7 @@ const ProductAnalysis = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#F59E0B',
+                color: '#FDE68A',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {analysis.summary.classB.length}
@@ -158,16 +158,19 @@ const ProductAnalysis = () => {
               <h3 style={{ 
                 fontSize: '2rem', 
                 fontWeight: '700',
-                color: '#EF4444',
+                color: '#FCA5A5',
                 margin: '0 0 var(--spacing-xs) 0'
               }}>
                 {analysis.summary.classC.length}
               </h3>
               <p style={{ margin: 0, color: '#6B7280' }}>Produtos Classe C</p>
             </div>
-            <div className="card" style={{ textAlign: 'center' }}>
+            <div className="card" style={{ 
+              textAlign: 'center',
+              minWidth: '280px'
+            }}>
               <h3 style={{ 
-                fontSize: '2rem', 
+                fontSize: '1.5rem', 
                 fontWeight: '700',
                 color: 'var(--forest-green)',
                 margin: '0 0 var(--spacing-xs) 0'
