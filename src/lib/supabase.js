@@ -133,3 +133,70 @@ export const getTotalRowCount = async () => {
     throw error;
   }
 };
+
+// Function to fetch monthly sales by SKU for inventory forecast
+export const fetchMonthlySalesBySKU = async (analysisWindow = 5) => {
+  try {
+    console.log(`🔍 Fetching monthly sales by SKU for ${analysisWindow}-month window...`);
+    
+    // Get the current date and calculate the start date for the analysis window
+    const now = new Date();
+    const startDate = new Date(now.getFullYear(), now.getMonth() - analysisWindow + 1, 1);
+    
+    console.log(`📅 Analysis window: ${startDate.toISOString().split('T')[0]} to ${now.toISOString().split('T')[0]}`);
+    
+    // Build the query to aggregate monthly sales by SKU
+    const { data, error } = await supabase
+      .from('Concrem_Value')
+      .select(`
+        DESCRICAO,
+        QUANTIDADE,
+        DTEMISSAO
+      `)
+      .gte('DTEMISSAO', startDate.toISOString())
+      .lte('DTEMISSAO', now.toISOString())
+      .not('DESCRICAO', 'is', null);
+    
+    if (error) throw error;
+    
+    console.log(`📊 Fetched ${data?.length || 0} records for monthly sales analysis`);
+    
+    return data;
+  } catch (error) {
+    console.error('❌ Error fetching monthly sales by SKU:', error);
+    throw error;
+  }
+};
+
+// Function to fetch order-level data for association analysis (if available)
+export const fetchOrderLevelData = async (analysisWindow = 5) => {
+  try {
+    console.log(`🔍 Fetching order-level data for association analysis...`);
+    
+    // Get the current date and calculate the start date for the analysis window
+    const now = new Date();
+    const startDate = new Date(now.getFullYear(), now.getMonth() - analysisWindow + 1, 1);
+    
+    // Fetch data with only the fields that exist in the database
+    const { data, error } = await supabase
+      .from('Concrem_Value')
+      .select(`
+        DESCRICAO,
+        QUANTIDADE,
+        DTEMISSAO,
+        NOME
+      `)
+      .gte('DTEMISSAO', startDate.toISOString())
+      .lte('DTEMISSAO', now.toISOString())
+      .not('DESCRICAO', 'is', null);
+    
+    if (error) throw error;
+    
+    console.log(`📊 Fetched ${data?.length || 0} records for association analysis`);
+    
+    return data;
+  } catch (error) {
+    console.error('❌ Error fetching order-level data:', error);
+    throw error;
+  }
+};
